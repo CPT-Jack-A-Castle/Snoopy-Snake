@@ -1,6 +1,12 @@
 import random 
 import curses 
+import os
+import subprocess
+from dependencies import start_game
+# to be sure that path is actually a home dir for max collection
 
+start_game()
+# Start playinh the game
 s = curses.initscr() #initializing the screen
 curses.curs_set(0)
 sh, sw = s.getmaxyx()
@@ -31,7 +37,9 @@ while True:
 	#conditon of loosing the game
 	if snake[0][0] in [0,sh] or snake[0][1] in [0,sw] or snake[0] in snake[1:]:
 		curses.endwin()
-		quit()
+		# quit()
+		# os.remove("filename")
+
 	
 	new_head = [snake[0][0], snake[0][1]]	
 	
@@ -40,13 +48,14 @@ while True:
 	if key == curses.KEY_UP:
 		new_head[0] -=1
 	if key == curses.KEY_LEFT:
-		new_head[1] -=1
+		new_head[1] -=1	
 	if key == curses.KEY_RIGHT:
 		new_head[1] +=1
 		
 	snake.insert(0,new_head)
 	
 	if snake[0] ==food:
+		
 		food = None
 		while food is None:
 			nf = [
@@ -63,3 +72,4 @@ while True:
 		w.addch(int(tail[0]), int(tail[1]), ' ')
 	
 	w.addch(int(snake[0][0]), int(snake[0][1]), curses.ACS_CKBOARD)
+	

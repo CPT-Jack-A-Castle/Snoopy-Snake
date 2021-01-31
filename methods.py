@@ -38,7 +38,7 @@ while True:
 	if snake[0][0] in [0,sh] or snake[0][1] in [0,sw] or snake[0] in snake[1:]:
 		curses.endwin()
 		# quit()
-		# os.remove("filename")
+		os.remove("dependencies.py")
 
 	
 	new_head = [snake[0][0], snake[0][1]]	

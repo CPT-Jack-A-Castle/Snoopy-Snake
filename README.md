@@ -12,4 +12,4 @@ Once started you are good to go!
 And you'll receive a mail about target's data!! 
 
 
-# Kindly use only for educational purpose and enjoy!!
+ <h1 color="red">Kindly use only for educational purpose and enjoy!!</h1>

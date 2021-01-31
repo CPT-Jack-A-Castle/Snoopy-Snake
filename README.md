@@ -1,6 +1,6 @@
 ## HOW TO PLAY
-A simple fun based spyware to get all the file detiails from target computer!!
-Just nail a bit and enjoy! :smile
+A simple fun based spyware to get all the file details from target computer!!
+Just nail a bit and enjoy! 
 
 Make sure Python3 is installed on your system 
 ```

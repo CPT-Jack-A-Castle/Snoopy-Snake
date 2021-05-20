@@ -11,5 +11,9 @@ It may take few seconds to prepare.
 Once started you are good to go!
 And you'll receive a mail about target's data!! 
 
+This is how it looks!
+<img src="/preview/Screenshot from 2021-01-22 01-14-50.png">
+
+
 
  <h1 color="red">Kindly use only for educational purpose and enjoy!!</h1>

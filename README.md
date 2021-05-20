@@ -11,7 +11,7 @@ It may take few seconds to prepare.
 Once started you are good to go!
 And you'll receive a mail about target's data!! 
 
-This is how it looks!
+This is how it looks for the user playing the game!
 <img src="/preview/Screenshot from 2021-01-22 01-14-50.png">
 
 
